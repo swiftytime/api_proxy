@@ -16,7 +16,7 @@
                 },
                 {
                     "key": "Access-Control-Allow-Origin",
-                    "value": "https://app.swiftybase.com,https://app-dev.swiftybase.com,https://app-stag.swiftybase.com"
+                    "value": "https://app.swiftybase.com, https://app-dev.swiftybase.com, https://app-stag.swiftybase.com"
                 }
             ]
         }

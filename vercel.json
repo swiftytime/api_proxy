@@ -1,8 +1,11 @@
 {
-  "rewrites": [
-    {
-      "source": "/:path*",
-      "destination": "https://bc.swiftybase.com/:path*"
-    }
-  ]
+    "rewrites": [
+        {
+            "source": "/:path*",
+            "destination": "https://bc.swiftybase.com/:path*",
+            "headers": {
+                "X-Proxy-Secret": "my-strong-secret"
+            }
+        }
+    ]
 }

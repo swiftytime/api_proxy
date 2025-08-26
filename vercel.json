@@ -12,7 +12,7 @@
             "headers": [
                 {
                     "key": "X-Proxy-Secret",
-                    "value": "my-strong-secret"
+                    "value": "fd3fe0b"
                 },
                 {
                     "key": "Access-Control-Allow-Origin",

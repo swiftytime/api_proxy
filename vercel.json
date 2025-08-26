@@ -11,10 +11,6 @@
             "source": "/:path*",
             "headers": [
                 {
-                    "key": "X-Proxy-Secret",
-                    "value": "fd3fe0b"
-                },
-                {
                     "key": "Access-Control-Allow-Origin",
                     "value": "https://app.swiftybase.com"
                 }

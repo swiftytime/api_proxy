@@ -3,20 +3,28 @@
     "rewrites": [
         {
             "source": "/:path*",
-            "destination": "https://bc.swiftybase.com/:path*"
+            "destination": "https://bc.swiftybase.com/:path*",
         }
     ],
-    "headers": [
+    "routes": [
         {
-            "source": "/:path*",
-            "headers": [
+            "src": "/:path*",
+            "transforms": [
                 {
-                    "key": "Access-Control-Allow-Origin",
-                    "value": "https://app.swiftybase.com"
+                    "type": "request.headers",
+                    "op": "append",
+                    "target": {
+                        "key": "Access-Control-Allow-Origin"
+                    },
+                    "args": "https://app.swiftybase.com"
                 },
                 {
-                    "key": "Access-Control-Allow-Methods",
-                    "value": "GET, POST, PUT, DELETE, OPTIONS"
+                    "type": "request.headers",
+                    "op": "append",
+                    "target": {
+                        "key": "Access-Control-Allow-Methods"
+                    },
+                    "args": "GET, POST, PUT, DELETE, OPTIONS"
                 }
             ]
         }

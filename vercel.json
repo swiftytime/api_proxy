@@ -3,7 +3,7 @@
     "rewrites": [
         {
             "source": "/:path*",
-            "destination": "https://api.swiftybase.com/:path*"
+            "destination": "https://bc.swiftybase.com/:path*"
         }
     ],
     "headers": [

@@ -13,7 +13,7 @@
             "transforms": [
                 {
                     "type": "request.headers",
-                    "op": "set",
+                    "op": "append",
                     "target": {
                         "key": "Access-Control-Allow-Origin"
                     },

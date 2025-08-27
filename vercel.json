@@ -12,11 +12,15 @@
             "headers": [
                 {
                     "key": "Access-Control-Allow-Origin",
+                    "value": "https://app.swiftybase.com"
+                },
+                {
+                    "key": "Access-Control-Allow-Origin",
                     "value": "https://app-dev.swiftybase.com"
                 },
                 {
                     "key": "Access-Control-Allow-Origin",
-                    "value": "https://app.swiftybase.com"
+                    "value": "https://app-stag.swiftybase.com"
                 }
             ]
         }

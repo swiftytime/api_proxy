@@ -19,8 +19,8 @@
                     "value": "GET, POST, PUT, DELETE, OPTIONS"
                 },
                 {
-                    "key": "X-Proxy-Secret",
-                    "value": "hello"
+                    "key": "X-Proxy",
+                    "value": "1"
                 }
             ]
         }

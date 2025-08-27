@@ -3,12 +3,13 @@
     "rewrites": [
         {
             "source": "/:path*",
-            "destination": "https://bc.swiftybase.com/:path*",
+            "destination": "https://bc.swiftybase.com/:path*"
         }
     ],
     "routes": [
         {
             "src": "/:path*",
+            "dest": "https://bc.swiftybase.com/:path*",
             "transforms": [
                 {
                     "type": "request.headers",
